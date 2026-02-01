@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# TravelTrucks
 
-## Getting Started
+**Короткий опис:**  
+Веб-додаток для оренди кемперів, що дозволяє переглядати каталог транспортних засобів, читати відгуки, бронювати та управляти орендою.
 
-First, run the development server:
+## Основні функції
 
-```bash
+- Перегляд каталогу кемперів із фільтрацією за типом, локацією та обладнанням
+- Детальна сторінка кожного кемпера з галереєю та відгуками
+- Форма бронювання кемпера
+- Авторизація та реєстрація користувачів
+- Інтеграція з бекендом через API
+
+## Установка
+
+1. Клонувати репозиторій:
+
+   ```bash
+   git clone https://github.com/Nadiia-Rakivska/travel-trucks.git
+2. Перейти в папку проєкту:
+
+cd travel-trucks
+
+3. Встановити залежності:
+
+npm install
+
+4. Запустити проєкт локально:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Проєкт буде доступний за адресою: <http://localhost:3000>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+6.Використання
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Відкрийте браузер і перейдіть на локальний сервер
 
-## Learn More
+Використовуйте каталог для перегляду кемперів
 
-To learn more about Next.js, take a look at the following resources:
+Реєструйтеся та авторизуйтеся для бронювання
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+7. Автор
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Надія Раківська
