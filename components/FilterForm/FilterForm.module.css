@@ -1,0 +1,138 @@
+.form{
+  max-width: 360px;
+}
+.equipment,
+.type {
+  border: none;
+}
+
+.locationWrapper{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.locationLabel{
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray);
+    margin-bottom: 8px;
+}
+.location{
+  position: relative;
+ 
+}
+.locationInput{
+border-radius: 12px;
+padding: 16px 48px;
+width: 264px;
+background: var(--inputs);
+font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--main);
+  outline: none;
+  border: none;
+}
+.locationInput::placeholder{
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray);
+}
+.iconLocation {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+.filters {
+  margin-bottom: 32px;
+  font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text);
+}
+.title {
+  margin-bottom: 24px;
+  font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--main);
+    
+}
+.divider{
+  margin-bottom: 24px;
+}
+.checkboxWrapper,
+.radioWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 8px;
+  margin-bottom: 32px;
+}
+.radioWrapper{
+  margin-bottom: 40px;
+}
+.checkbox{
+  display: none;
+}
+.checkboxLabel,
+.radioLabel{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+ 
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  height: 96px;
+border: 1px solid var(--gray-light);
+mix-blend-mode: multiply;
+    border-radius: 12px;
+}
+.checkbox:checked +.checkboxLabel{
+  border: 1px solid var(--button);
+}
+.text{
+  font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: var(--main);
+}
+.type{
+  margin-bottom: 40px;
+}
+.radio {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+.btn{
+  font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.01em;
+    color: var(--white);
+    border-radius: 200px;
+      padding: 16px 60px;
+    background: var(--button);
+    transition: background 0.2s ease;
+    border: none;
+}
+.nav:hover,
+.nav:focus,
+.nav:active {
+  background: var(--button-hover);
+}
+.active {
+  border: 1px solid var(--button);
+}

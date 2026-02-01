@@ -1,0 +1,140 @@
+
+.item {
+  padding: 24px;
+  border: 1px solid var(--gray-light);
+    border-radius: 20px;
+    display: flex;
+    gap: 24px;
+ 
+  margin-bottom: 32px;
+}
+
+.img{
+  border-radius: 10px;
+    width: 292px;
+    height: 320px;
+    object-fit: cover;
+}
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.title{
+  font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 133%;
+    color: var(--main);
+}
+.priceWrapper{
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.reviewsWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.star{
+   fill: var(--rating);
+   margin-right: 4px;
+}
+.rating{
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--main);
+    margin-right: 16px;
+}
+.location {
+    font-family: var(--font-family);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: var(--main);
+}
+.description{
+  margin-bottom: 24px;
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text);
+}
+
+.listDesc{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: 390px;
+  margin-bottom: 24px;
+}
+.itemDesc{
+  padding: 12px 18px;
+  border-radius: 100px;
+  background: var(--badges);
+    mix-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      text-align: center;
+      color: var(--main);
+      
+}
+.icon{
+  margin-right: 8px;
+}
+
+.nav {
+  padding: 16px 40px;
+  transition: background 0.2s ease;
+border-radius: 200px;
+background: var(--button);
+font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+  color: var(--white);
+}
+
+.nav:hover,
+.nav:focus,
+.nav:active {
+  background: var(--button-hover);
+}
+
+.btn {
+  border: 1px solid var(--gray-light);
+    border-radius: 200px;
+    padding: 16px 32px;
+    margin-top: 8px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    font-family: var(--font-family);
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: -0.01em;
+      color: var(--main);
+      transition: border 0.2s ease;
+}
+.btn:hover,
+.btn:focus,
+.btn:active {
+border: 1px solid var(--button-hover);
+}
+
+
+.active{
+  fill: red;
+}

@@ -1,0 +1,31 @@
+
+.container{
+  display: flex;
+  padding: 28px 64px;
+  background: var(--inputs);
+
+}
+.logo {
+
+  margin-right: 450px;
+}
+.list{
+  display: flex;
+  gap: 32px;
+}
+.nav {
+  font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--main);
+    transition: color 0.2s ease;
+    display: block;
+}
+
+.nav:hover,
+.nav:focus,
+.nav:active{
+  color: var(--button-hover);
+}

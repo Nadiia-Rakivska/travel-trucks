@@ -1,0 +1,53 @@
+/* .star{
+  fill: red;
+} */
+ .container{
+  max-width: 631px;
+ }
+.wrapper{
+  display: flex;
+  gap: 6px;
+
+  align-items: center;
+  margin-bottom: 16px;
+}
+.name{
+  border-radius: 60px;
+    width: 60px;
+    height: 60px;
+    background: var(--badges);
+    font-family: var(--font-family);
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 133%;
+      color: var(--button);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.reviewername{
+  font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--main);
+    margin-bottom: 4px;
+}
+.starsWrapper{
+  display: flex;
+  gap: 4px;
+}
+.star{
+  fill: var(--rating);
+}
+.stargray{
+  fill: var(--badges);;
+}
+.descr{
+  font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--text);
+    margin-bottom: 44px;
+}
